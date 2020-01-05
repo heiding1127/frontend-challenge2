@@ -131,7 +131,6 @@ p {
   color: Black;
   font-weight: bold;
   text-align: center;
-  padding-right: 50px;
   font-size:11px;
 }
 
@@ -157,7 +156,7 @@ p {
   color: #9e9e9e;
   float: left;
   position: absolute;
-  margin-top: 6%;
+  margin-top: 7%;
   margin-left: 5%;
   width: 30px;
 }
@@ -174,9 +173,24 @@ p {
 .arrow{
   display: inline-block;
   width: 5%;
-  margin-top: 7%;
+  margin-top: 10%;
   margin-bottom: auto;
   margin-right: 5%;
   float: right;
   color: #9E9E9E;
+}
+
+.arrow2{
+  position: absolute;
+  width: 5%;
+  margin-top: 14%;
+  margin-bottom: auto;
+  margin-left: 73%;
+  float: right;
+  color: #9E9E9E;
+}
+
+
+.extra {
+  padding-left: 50px;
 }
