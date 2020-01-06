@@ -109,65 +109,29 @@ p {
   padding: 8px 10px 10px 30px;
 }
 
-.line {
+
+.line1{
   color: Black;
-  font-weight: bold;
+  font-weight: normal;
+  text-align: center;
+  font-size:12px;
+  width:15%;
+}
+
+.line2 {
+  color: Black;
+  font-weight: regular;
   text-align: left;
   font-size:12px;
+  width:40%;
 }
 
-.line:nth-child(1){
- width:12%;
-}
-
-.line:nth-child(2){
- width: 41%;
-}
-.line:nth-child(3){
- width: 10%
-}
-
-.info1 {
+.line3 {
   color: Black;
-  font-weight: bold;
-  text-align: center;
-  font-size:11px;
-}
-
-.info {
-  color: Black;
+  font-weight: regular;
   text-align: left;
-  font-size:14px;
-}
-
-.info:nth-child(1){
- width: 12%;
-}
-
-.info:nth-child(2){
- width: 40%;
-}
-
-.info:nth-child(3){
- width: 60%
-}
-
-.circle1 {
-  color: #9e9e9e;
-  float: left;
-  position: absolute;
-  margin-top: 7%;
-  margin-left: 5%;
-  width: 30px;
-}
-
-.circle2 {
-  color: #9e9e9e;
-  float: left;
-  position: absolute;
-  margin-top: 12%;
-  margin-left: 5%;
-  width: 30px;
+  font-size:12px;
+  width:35%;
 }
 
 .arrow{
@@ -175,7 +139,7 @@ p {
   width: 5%;
   margin-top: 10%;
   margin-bottom: auto;
-  margin-right: 5%;
+  margin-right: 2%;
   float: right;
   color: #9E9E9E;
 }
@@ -185,12 +149,38 @@ p {
   width: 5%;
   margin-top: 14%;
   margin-bottom: auto;
-  margin-left: 73%;
+  margin-left: 2%;
+  float: right;
+  color: #9E9E9E;
+}
+
+.arrow3{
+  position: absolute;
+  width: 5%;
+  margin-top: 21%;
+  margin-bottom: auto;
+  margin-left: 2%;
   float: right;
   color: #9E9E9E;
 }
 
 
 .extra {
-  padding-left: 50px;
+  font-weight: bold;
+}
+
+.circle1 {
+  width: 8%;
+}
+
+.circle2 {
+  width: 8%;
+}
+
+.circle3 {
+  width: 8%;
+  margin-top: 3px;
+  margin-left: 25px;
+  margin-bottom: 3px;
+  bottom: 50px;
 }
