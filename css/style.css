@@ -88,14 +88,14 @@ p {
   margin: 4% auto;
   width: 420px;
   background-color: white;
-  padding-bottom: 30px
+  padding-bottom: 30px;
 }
 
 .content  {
   margin: 0 auto;
   padding: 8px 50px 8px 10px;
   width: 380px;
-  background-color: orange
+  background-color: orange;
 }
 
 .schedule{
@@ -103,84 +103,68 @@ p {
   width: 420px;
 }
 
-.navlist li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 8px 10px 10px 30px;
+
+.bus {
+  margin: 0px auto;
+  width: 380px;
+  height: 37px;
+  background-color: white;
+  padding-bottom: 10px;
+  margin-top: 1px;
+  position: relative;
 }
 
+.circle {
+  width: 9%;
+  margin-bottom: 10px;
+  top: 2px;
+  left: 6px;
+  position: relative;
+}
 
 .line1{
   color: Black;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
   font-size:12px;
-  width:15%;
+  width: 12%;
+  bottom: 12px;
+  position: absolute;
 }
 
 .line2 {
   color: Black;
-  font-weight: regular;
+  font-weight: normal;
   text-align: left;
-  font-size:12px;
-  width:40%;
+  font-size:14px;
+  width: 73%;
+  bottom: 12px;
+  right: 40px;
+  position: absolute;
 }
 
 .line3 {
-  color: Black;
-  font-weight: regular;
+  color: #3d3d3d;
+  font-weight: normal;
   text-align: left;
-  font-size:12px;
-  width:35%;
+  font-size:14px;
+  width: 30%;
+  bottom: 12px;
+  right: 40px;
+  position: absolute;
 }
 
 .arrow{
-  display: inline-block;
-  width: 5%;
-  margin-top: 10%;
-  margin-bottom: auto;
-  margin-right: 2%;
-  float: right;
-  color: #9E9E9E;
-}
-
-.arrow2{
   position: absolute;
   width: 5%;
-  margin-top: 14%;
-  margin-bottom: auto;
-  margin-left: 2%;
+  top: 9px;
+  right: 1px;
   float: right;
   color: #9E9E9E;
 }
-
-.arrow3{
-  position: absolute;
-  width: 5%;
-  margin-top: 21%;
-  margin-bottom: auto;
-  margin-left: 2%;
-  float: right;
-  color: #9E9E9E;
-}
-
 
 .extra {
   font-weight: bold;
-}
-
-.circle1 {
-  width: 8%;
-}
-
-.circle2 {
-  width: 8%;
-}
-
-.circle3 {
-  width: 8%;
-  margin-top: 3px;
-  margin-left: 25px;
-  margin-bottom: 3px;
-  bottom: 50px;
+  font-size: 13px;
+  color: black;
 }
