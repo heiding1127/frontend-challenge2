@@ -98,11 +98,19 @@ p {
   background-color: orange;
 }
 
+.wrap {
+
+}
+
 .schedule{
   margin: auto;
   width: 420px;
 }
 
+.navcontainer {
+  margin: 0 auto;
+  width: 420px;
+}
 
 .bus {
   margin: 0px auto;
