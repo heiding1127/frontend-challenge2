@@ -81,6 +81,7 @@ p {
   margin: 5px 0 0px 8px;
   align-items: center;
   display: flex;
+  z-index: 0;
 }
 
 .navigation {
@@ -96,8 +97,7 @@ p {
   height: 40px;
   background-color: #fafafa;
   bottom: 50px;
-  position: static;
-  z-index: -1;
+  position: auto;
 }
 
 input {
@@ -128,67 +128,72 @@ input {
 }
 
 .bus {
-  margin: 0px auto;
+  margin: 0 auto;
   width: 380px;
   height: 41px;
-  background-color: orange;
+  background-color: white;
   margin-top: 1px;
 }
 
 .circle {
   width: 9%;
-  display: block;
+  bottom: 23px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  font-size: 10px;
+  font-weight: bold;
+  top: 13px;
+  left: 10px;
 }
 
 .line1{
   margin: 0 auto;
   color: Black;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   font-size:12px;
-  width: 13%;
-  padding-left:10px;
+  width: 12%;
   display: inline-block;
 }
 
 .line2 {
   margin: 0 auto;
-  padding-top: 15px;
   color: Black;
   font-weight: normal;
   text-align: left;
   font-size:13px;
-  width: 33%;
-  padding-left:10px;
+  width: 37%;
   display: inline-block;
 }
 
 .line3 {
   margin: 0 auto;
-  padding-top: 15px;
   color: #3d3d3d;
   font-weight: normal;
   text-align: left;
   font-size:13px;
-  width: 50%;
-  bottom: 6px;
+  width: 40%;
   display: inline-block;
 }
 
 
 .arrow{
-  display: inline-block;
+  position: relative;
   width: 5%;
-  bottom: 40px;
-  right: 1px;
   float: right;
   color: #9E9E9E;
+  bottom: 50px;
+  z-index: 0;
 }
+
 
 .extra {
   font-weight: bold;
   font-size: 13px;
   color: black;
-  bottom: 13px;
-  height: 14px;
+  margin-top: 15px;
 }
