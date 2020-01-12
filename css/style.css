@@ -97,6 +97,7 @@ p {
   background-color: #fafafa;
   bottom: 50px;
   position: static;
+  z-index: -1;
 }
 
 input {
@@ -121,15 +122,6 @@ input {
   background-color: orange;
 }
 
-.wrap {
-
-}
-
-.schedule{
-  margin: auto;
-  width: 420px;
-}
-
 .navcontainer {
   margin: 0 auto;
   width: 420px;
@@ -139,60 +131,55 @@ input {
   margin: 0px auto;
   width: 380px;
   height: 41px;
-  background-color: white;
-  padding-bottom: 10px;
+  background-color: orange;
   margin-top: 1px;
-  position: relative;
 }
 
 .circle {
   width: 9%;
-  margin-bottom: 10px;
-  top: 3px;
-  left: 6px;
-  position: relative;
+  display: block;
 }
 
 .line1{
+  margin: 0 auto;
   color: Black;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-size:12px;
-  width: 12%;
-  bottom: 14px;
-  position: absolute;
-  align-items: center;
+  width: 13%;
+  padding-left:10px;
+  display: inline-block;
 }
 
 .line2 {
+  margin: 0 auto;
+  padding-top: 15px;
   color: Black;
   font-weight: normal;
   text-align: left;
-  font-size:14px;
-  width: 73%;
-  bottom: 12px;
-  right: 40px;
-  position: absolute;
-  align-items: center;
+  font-size:13px;
+  width: 33%;
+  padding-left:10px;
+  display: inline-block;
 }
 
 .line3 {
+  margin: 0 auto;
+  padding-top: 15px;
   color: #3d3d3d;
   font-weight: normal;
   text-align: left;
-  font-size:14px;
-  width: 35%;
+  font-size:13px;
+  width: 50%;
   bottom: 6px;
-  right: 40px;
-  position: absolute;
-  align-items: center;
+  display: inline-block;
 }
 
 
 .arrow{
-  position: absolute;
+  display: inline-block;
   width: 5%;
-  top: 9px;
+  bottom: 40px;
   right: 1px;
   float: right;
   color: #9E9E9E;
