@@ -53,6 +53,7 @@ p {
   margin: 0 auto;
   width: 420px;
   position: fixed;
+  z-index: 1000;
   background-color:#fafafa;
 }
 
@@ -63,6 +64,7 @@ p {
   width: 420px;
   padding: 0 0 0 15;
   background-color:#fafafa;
+  z-index: 1110;
 }
 
 .navbar {
@@ -72,6 +74,7 @@ p {
   position: fixed;
   width: 420px;
   height: 40px;
+  z-index: 1000;
 }
 
 .hambergar-menu {
@@ -137,21 +140,13 @@ input {
 
 .circle {
   width: 9%;
-  bottom: 23px;
-  margin-left: 5px;
+  bottom: 32px;
+  margin-left: 6px;
   position: relative;
 }
 
-.number {
-  position: absolute;
-  font-size: 10px;
-  font-weight: bold;
-  top: 13px;
-  left: 10px;
-}
-
 .line1{
-  margin: 0 auto;
+  margin: 0% auto;
   color: Black;
   font-weight: bold;
   text-align: center;
@@ -167,6 +162,7 @@ input {
   text-align: left;
   font-size:13px;
   width: 37%;
+  padding-left: 5px;
   display: inline-block;
 }
 
@@ -178,22 +174,21 @@ input {
   font-size:13px;
   width: 40%;
   display: inline-block;
+  vertical-align: middle;
 }
-
 
 .arrow{
   position: relative;
   width: 5%;
   float: right;
   color: #9E9E9E;
-  bottom: 50px;
-  z-index: 0;
+  bottom: 58px;
 }
-
 
 .extra {
   font-weight: bold;
   font-size: 13px;
   color: black;
-  margin-top: 15px;
+  vertical-align: middle;
+  margin-top: 10px;
 }
